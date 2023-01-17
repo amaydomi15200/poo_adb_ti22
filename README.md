@@ -1,2 +1,6 @@
-# poo_adb_ti22
-Repositorio con los ejercicios de la materia de Programación Orientada a Objetos
+#Repositorio con los ejercicios de la materia de Programación Orientada a Objetos
+
+##Índice
+
+|No.|Archivo|Descripción|
+|1|programa0.py|Hola mundo en python3|
