@@ -10,7 +10,7 @@ suma = int(numero1) + numero2
 resta = int(numero1) - numero2
 multiplicacion = int(numero1) * numero2
 division = int(numero1) / numero2
-potencia = string(numero1) ^ numero2 
+potencia = int(numero1)**numero2
 print(suma)
 print(resta)
 print(multiplicacion)
