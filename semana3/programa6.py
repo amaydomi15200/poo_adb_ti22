@@ -9,7 +9,7 @@ print("Area del circulo")  #imprime en la pantalla texto para identificar area d
 PI = (3.1416)
 radio = float(input("Dame el valor del radio: "))  #pide el radio del circulo
 area_circulo= (PI) *(radio **2) #hace la operacion para sacar el area del circulo
-print("El area del circulo con un radio de {} es {}: ",format(radio,area_circulo))  #imprime el area a la pantalla
+print("El area del circulo con un radio de {} es {}: ",( area_circulo)) #imprime el area a la pantalla
 
 #perimetro circulo
 print("Perimetro del circulo")  #imprime en la pantalla texto para identificar perimetro del circulo
