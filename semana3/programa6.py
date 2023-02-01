@@ -1,7 +1,7 @@
 """
-    Programa5
+    Programa6
     Nombre:Amayrani DB
-    Fecha: 30/01/23
+    Fecha: 31/01/23
     Descripcion:Area y perimetro de circulo y cuadrado
 """
 #area circulo
