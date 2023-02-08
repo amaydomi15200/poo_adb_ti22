@@ -4,11 +4,11 @@
     Fecha: 08/02/23
     Descripcion:Programa que por medio de un def nos de el numero mayor de dos numeros
 """
-def mayor(numero1,numero2):
-    if numero1 > numero2:
-        print(numero1)
+def mayor(numero1,numero2):  #definimos el mayor de los numeros
+    if numero1 > numero2:  #
+        print(numero1)  #Imprime el numero mayor que es el numero1
     elif numero2 > numero1:
-        print(numero2)
+        print(numero2)  #imprime el umero mayor que es el numero2
     else:
         print(None)
 

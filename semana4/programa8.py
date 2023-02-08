@@ -60,7 +60,7 @@ else:
 
 print("Septima version")   #imprime el texto de septima version
 if n1 <= n2:
-    if n1 <= n2:
+    if n1 < n2:
         print(n2)
     else:
         print(None)
@@ -92,3 +92,11 @@ elif n1 < n2:
 else:
     print(n1)
     
+print("onceava version")
+if n1 == n2:
+    print(None)
+
+elif n1 >= n2:
+    print(n1)
+else:
+    print(n2)
