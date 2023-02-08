@@ -12,3 +12,4 @@
 |6|programa5.py| area y perimetro de un triangulo|
 |7|programa6.py|Area y perimetro de circulo y cuadrado|
 |8|programa7.py|Comparar 2 numeros enteros e imprimir el mayor unit test|
+|9|programa8.py|Programa 11 versiones de un encontrar el mayor de 2 numeros|
