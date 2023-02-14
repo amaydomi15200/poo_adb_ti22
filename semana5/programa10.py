@@ -2,7 +2,7 @@
     Programa10
     Nombre:Amayrani DB
     Fecha: 13/02/23
-    Descripcion:Programa que utiliza clase persona e imprime el nombre y matricula
+    Descripcion:Programa que utiliza clase persona e imprime el nombre y correo
 """
 class Persona:
 	__nombre = None
