@@ -8,4 +8,4 @@
 variable1= "Hola "  #  variable para almacenar una cadena de caracteres
 variable2= "mundo python"  #  variable para alamacenar una cadena de caracteres
 
-print(variable1 + variable2)
+print(variable1 + variable2) #Imprime la suma  de la variable1 mas la variable2
