@@ -34,8 +34,8 @@ else:
     print(None)  #Va a imprimir None
 
 print("Cuarta version")   #imprime el texto de cuarta version
-if n1 < n2 :
-    print(n2)
+if n1 < n2 :  #hace la operacion si el numero 1 es menor que el numero 2
+    print(n2)  #imprimira el numero mayor que es el 2
 elif n2 < n1:
     print(n1)
 else:
