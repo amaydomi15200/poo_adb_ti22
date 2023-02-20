@@ -16,7 +16,7 @@ class Alumno:
         self.__nombre = nombre
 
     def getNombre(self):
-	return self.__nombre
+    return self.__nombre
     
     def setMatricula(self, matricula):
 	self.__matricula = matricula

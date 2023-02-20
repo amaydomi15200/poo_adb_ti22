@@ -6,14 +6,14 @@
 """
 class Persona:
     
-    def __init__(self):
+    def __init__(self):  #definicion creada por cualquier usuario
         __nombre = None
-        print("Persona")
+        print("Persona")  #imprime el texto persona
 
 class Alumno(Persona):
-    def __init__(self):
-        super().__init__()
-        print("Alumno")
+    def __init__(self): #definicion creada por cualquier usuario
+        super().__init__()  #permite invocar y conservar un metodo o atributo de una clase
+        print("Alumno")  #mostrar texto en pantalla
 
 objeto_persona = Persona()
 objeto_alumno = Alumno()
