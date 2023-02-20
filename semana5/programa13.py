@@ -9,7 +9,7 @@ class Persona:  #Class Persona
     __nombre=None  #Variable privada __nombre
     __edad=None  #Variable privada __edad
 
-    def__init__(self):  #Constructor de la clase Persona
+    def __init__(self):  #constructor de la clase Persona
       print("Persona")  #Imprime el texto persona
 
     def getNombre(self): #Funion que regresa el valor de la variable privada __nombre
@@ -30,14 +30,14 @@ class Alumno(Persona): #Class Alumno y herencia de Persona
     __nombre=None  #Variable privada __nombre
     __matricula=None  #Variable privada __matricula
 
-    def__init__(self):  #Constructor de la clase Alumno
+    def __init__(self):  #Constructor de la clase Alumno
       print("Alumno")  #Imprime el texto alumno
 
     def getNombre(self): #Funion que regresa el valor de la variable privada __nombre
       return self.__nombre   # Regresa el valor de la variable privada __nombre
 
     def setNombre(self,nombre):  # Funcion para modificar el valor de la variable privada __nombre
-      self:__nombre = nombre  #Modifica el valor de la variable privada __nombre yle asigna valor del parametro
+      self.__nombre = nombre  #Modifica el valor de la variable privada __nombre yle asigna valor del parametro
 
     def getMatricula(self): #Funion que regresa el valor de la variable privada __matricula
       return self.__matricula  # Regresa el valor de la variable privada __matricula
