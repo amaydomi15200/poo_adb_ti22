@@ -37,66 +37,66 @@ print("Cuarta version")   #imprime el texto de cuarta version
 if n1 < n2 :  #hace la operacion si el numero 1 es menor que el numero 2
     print(n2)  #imprimira el numero mayor que es el 2
 elif n2 < n1:
-    print(n1)
+    print(n1)   #imprimira el numero mayor que es el 1
 else:
-    print(None)
+    print(None)   #imprimira None
 
 print("Quinta version")   #imprime el texto de quinta version
-if n2 < n1:
-    print(n1)
-if n1 < n2:
-    print(n2)
-if n1 == n2:
+if n2 < n1:  #hace la operacion si el numero 1 es menor que el numero 1
+    print(n1)  #imprimira el numero mayor que es el 1
+if n1 < n2:  #hace la operacion si el numero 1 es menor que el numero 2
+    print(n2) #imprimira el numero mayor que es el 2
+if n1 == n2:   #hace la operacion si el numero2 y numero1 son iguales
     print(None)
 
 print("Sexta version")   #imprime el texto de sexta version
-if n1 >= n2:
-    if n1 > n2:
-        print(n1)
+if n1 >= n2:  #hace la operacion si el numero 1 es mayor o igual que el numero 2
+    if n1 > n2:  #hace la operacion si el numero 1 es mayor o igual que el numero 2
+        print(n1)   #imprimira el numero mayor que es el 1
     else:
-        print(None)
+        print(None)   #imprimira None
 else:
-    print(n2)
+    print(n2)   #imprimira 2
 
 print("Septima version")   #imprime el texto de septima version
-if n1 <= n2:
-    if n1 < n2:
-        print(n2)
+if n1 <= n2:  #hace la operacion si el numero 1 es menor o igual que el numero 2
+    if n1 < n2:  #hace la operacion si el numero 1 es menor o igual que el numero 2
+        print(n2)  #imprimira 2
     else:
-        print(None)
+        print(None)  #imprimira None
 else:
-    print(n1)
+    print(n1)  #imprimira 1
 
 print("Octava version")   #imprime el texto de octava version
-if n1 <= n2:
-    if n1 == n2:
-        print(None)
+if n1 <= n2:  #hace la operacion si el numero 1 es menor o igual que el numero 2
+    if n1 == n2:   #hace la operacion si el numero2 y numero1 son iguales
+        print(None)  #imprimira None
     else:
-        print(n2)
+        print(n2)  #imprimira 2
 else:
-    print(n1)
+    print(n1)  #imprimira 1
 
 print("Novena version")   #imprime el texto de novena version
-if n1 == n2:
-    print(None)
-elif n1 > n2:
-    print(n1)
+if n1 == n2:   #hace la operacion si el numero2 y numero1 son iguales
+    print(None)  #imprimira None
+elif n1 > n2:  #mayor numero 2 
+    print(n1)  #imprimira 1
 else:
-    print(n2)
+    print(n2)  #imprimira 2
 
 print("Decima version")   #imprime el texto de decima version
-if n1 == n2:
-    print(None)
-elif n1 < n2:
-    print(n2)
+if n1 == n2:   #hace la operacion si el numero2 y numero1 son iguales
+    print(None)  #imprimira None
+elif n1 < n2:  #menor 1
+    print(n2)  #imprimira 2 
 else:
-    print(n1)
+    print(n1)  #imprimira 1
     
 print("onceava version")
-if n1 == n2:
-    print(None)
+if n1 == n2:   #hace la operacion si el numero2 y numero1 son iguales
+    print(None)  #imprimira None
 
-elif n1 >= n2:
-    print(n1)
+elif n1 >= n2: #numero1 mayor o igual que numero2
+    print(n1)  #imprimira 1
 else:
-    print(n2)
+    print(n2)  #imprimira 2

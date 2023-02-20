@@ -5,24 +5,24 @@
     Descripcion:Programa que utiliza clase persona e imprime el nombre y correo
 """
 class Persona:
-	__nombre = None
-	__email = None
-	def __init__(self):
+	__nombre = None  # denota falta de valor
+	__email = None  # denota falta de valor
+	def __init__(self):  # definicion creada porcualquier usuario 
 		print("Persona")
 
-	def setNombre (self,nombre):
+	def setNombre (self,nombre): # definicion creada porcualquier usuario 
 	    self.__nombre = nombre
 
-	def getNombre (self):
-	    return self.__nombre
+	def getNombre (self):  # definicion creada porcualquier usuario 
+	    return self.__nombre  #  final de la función y continúa la ejecución del programa tras la llamada a la función
 
-	def setEmail (self,email):
+	def setEmail (self,email):  # definicion creada porcualquier usuario 
 	    self._email = email
 
-	def getEmail (self):
-	    return self.__email
+	def getEmail (self):  # definicion creada porcualquier usuario 
+	    return self.__email  #  final de la función y continúa la ejecución del programa tras la llamada a la función
 
-dejah = Persona()
+dejah = Persona()  
 dejah.setNombre("Dejah")
 dejah.setEmail("amaydomibadi@gmail.com")
 print(dejah.getNombre())
